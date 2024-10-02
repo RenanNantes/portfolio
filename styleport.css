@@ -1,0 +1,97 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #414141;
+    color: #BDC2BF;
+}
+
+main{
+    width: 40vw;
+    margin: 0 auto;
+}
+
+figure {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    max-width: 160px;
+    max-height: 160px;
+    margin: 20px auto; 
+}
+
+figure img {
+    width: 100%;
+    border-radius: 50%;
+    display: block; 
+}
+
+h1, h2, p, ul{
+    margin: 0;
+    padding: auto;
+    list-style: none;
+    
+}
+h1{
+    text-align: center 
+}
+p{
+    text-align: justify;
+}
+
+section{
+    padding: 20px 0;
+}
+
+.card{
+    width: 160px;
+    padding: 10px;
+    border: 1px   solid #BDC2BF;
+    border-radius: 6px;
+}
+.card ul li{
+    margin-bottom: 6px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap:10px
+}
+
+a:-webkit-any-link{
+    color: unset;
+}
+.redessociais {
+    display: flex; 
+    list-style-type: none; 
+    padding: 0; 
+    justify-content: center;
+}
+
+.redessociais li {
+    margin-right: 15px; 
+}
+
+.redessociais a {
+    color: #BDC1CA;
+    text-decoration: none; 
+}
+
+
+section h1 + p {
+    font-size: 1.2em; 
+}
+
+
+.redessociais span {
+    font-size: 2em; 
+}
+
+@media(max-width: 690px){
+    body {
+        background-color: #453232;
+    }
+    
+    main{
+        width: 89vw;
+    }
+}
